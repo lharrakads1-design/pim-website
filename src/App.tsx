@@ -23,6 +23,7 @@ const IMG = {
   contact: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80',
   stats: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80',
   process: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1920&q=80',
+  logo: 'https://i.imgur.com/LvTHAl6.png',
 };
 
 /* ============================================================
@@ -268,7 +269,7 @@ function Header() {
           <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-white text-lg transition-all duration-300 ${
             scrolled ? 'bg-blue-600' : 'bg-blue-600/90'
           } group-hover:scale-105`}>
-            <img src="https://i.imgur.com/LvTHAl6.png" alt="Équipe technique PIM en intervention" className="w-full h-80 md:h-96 object-cover" />
+            <img src={IMG.logo} alt="PIM" className="w-full h-80 md:h-96 object-cover" />
           </div>
           <div className="hidden sm:block">
             <span className={`font-bold text-lg transition-colors duration-300 ${scrolled ? 'text-slate-900' : 'text-white'}`}>
