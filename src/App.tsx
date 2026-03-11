@@ -266,7 +266,7 @@ function Header() {
         {/* Logo */}
         <button onClick={() => navClick('accueil')} className="flex items-center gap-3 group">
           <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-white text-lg transition-all duration-300 ${
-            scrolled ? 'bg-blue-600'
+            scrolled ? 'bg-blue-600' : 'bg-blue-600/90'
           } group-hover:scale-105`}>
             <img src="https://i.imgur.com/LvTHAl6.png" alt="Équipe technique PIM en intervention" className="w-full h-80 md:h-96" />
           </div>
