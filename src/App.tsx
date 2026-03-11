@@ -272,7 +272,7 @@ function Header() {
           </div>
           <div className="hidden sm:block">
             <span className={`font-bold text-lg transition-colors duration-300 ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-              PIM
+              POM
             </span>
             <span className={`hidden md:inline text-sm ml-2 transition-colors duration-300 ${scrolled ? 'text-slate-500' : 'text-slate-300'}`}>
               Perfect Industrial Maintenance
