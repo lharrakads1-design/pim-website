@@ -273,7 +273,7 @@ function Header() {
           </div>
           <div className="hidden sm:block">
             <span className={`font-bold text-lg transition-colors duration-300 ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-              POM
+              PIM
             </span>
             <span className={`hidden md:inline text-sm ml-2 transition-colors duration-300 ${scrolled ? 'text-slate-500' : 'text-slate-300'}`}>
               Perfect Industrial Maintenance
@@ -966,7 +966,7 @@ function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center font-black text-white text-lg">P</div>
+              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center font-black text-white text-lg"><img src={IMG.logo} alt="PIM"/></div>
               <div>
                 <span className="font-bold text-white text-lg">PIM</span>
               </div>
