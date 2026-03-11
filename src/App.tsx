@@ -269,7 +269,7 @@ function Header() {
           <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-white text-lg transition-all duration-300 ${
             scrolled ? 'bg-blue-600' : 'bg-blue-600/90'
           } group-hover:scale-105`}>
-            <img src={IMG.logo} alt="PIM" className="w-full h-80 md:h-96 object-cover" />
+            <img src={IMG.logo} alt="PIM"/>
           </div>
           <div className="hidden sm:block">
             <span className={`font-bold text-lg transition-colors duration-300 ${scrolled ? 'text-slate-900' : 'text-white'}`}>
